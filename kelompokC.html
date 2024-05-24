@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>List Mapel</title>
+</head>
+<body>
+<div class="container mt-5">
+    <h3 class="mb-4">Daftar Mata Pelajaran</h3>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="nama">Nama Pelajaran</label>
+            <input class="form-control" type="text" id="nama" name="nama" placeholder="Masukkan nama mapel">
+        </div>
+        <div class="form-group">
+            <label for="guru">Nama Guru</label>
+            <input class="form-control" type="text" id="guru" name="guru" placeholder="Masukkan nama guru">
+        </div>
+        <div class="form-group">
+            <label for="tugas">Nama Tugas</label>
+            <input class="form-control" type="text" id="tugas" name="tugas" placeholder="Masukkan nama tugas">
+        </div>
+        <div class="form-group">
+            <label for="Tanggal">Tanggal</label>
+            <input class="form-control" type="date" id="Tanggal" name="Tanggal">
+        </div>
+        <div class="form-group">
+            <label for="file">Pilih File</label>
+            <input type="file" class="form-control-file" id="file" name="file">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+       <div class="container mt-3">
+            <div class="card" style="width: 18rem; margin-top: 80px; background-image: linear-gradient(to right, #73CBDE, #A0E09C, #B7FF9D); border: none;">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: white;">PPL 2</h5>
+                    <h6 class="card-subtitle mb-2 text-muted" style="color: white;" >Nia Adiyanti S,Kom.</h6>
+                    <p class="card-text" style="color: white;" >Ppt Use Case Online Shop</p>
+                    <p class="card-text" style="color: white;">23/10/23</p>
+                    <a href="#" class="card-link" style="text-decoration: none; color: white;">Download</a>
+                    <a href="#" class="card-link" style="text-decoration: none; color: white;">Lihat</a>
+                </div>
+
+            </div>
+     </div>
+</div>
+</body>
+</html>
+
+
+
+
+
